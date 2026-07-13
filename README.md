@@ -79,3 +79,45 @@ const alvin = {
 <img src="https://skillicons.dev/icons?i=git,github,docker,postman,vscode,visualstudio,linux" />
 
 </div>
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api?username=AlvinAntony-Kunnuthottiyil&show_icons=true&theme=tokyonight&hide_border=true"
+/>
+
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlvinAntony-Kunnuthottiyil&layout=compact&theme=tokyonight&hide_border=true"
+/>
+
+</div>
+
+---
+
+## 🔥 GitHub Streak
+
+<div align="center">
+
+<img
+  src="https://streak-stats.demolab.com?user=AlvinAntony-Kunnuthottiyil&theme=tokyonight&hide_border=true"
+/>
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=AlvinAntony-Kunnuthottiyil&theme=tokyo-night&hide_border=true&area=true"
+/>
+
+</div>
