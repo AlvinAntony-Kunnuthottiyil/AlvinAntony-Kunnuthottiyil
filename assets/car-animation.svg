@@ -5,7 +5,7 @@
 
   <style>
     .vehicle {
-      animation: drive 10s linear infinite;
+      animation: drive 8s linear infinite;
     }
 
     .wheel {
@@ -20,11 +20,11 @@
 
     @keyframes drive {
       0% {
-        transform: translateX(-500px);
+        transform: translateX(0px);
       }
 
       100% {
-        transform: translateX(1300px);
+        transform: translateX(1200px);
       }
     }
 
@@ -49,7 +49,6 @@
     }
   </style>
 
-
   <!-- ROAD -->
 
   <line
@@ -61,11 +60,9 @@
     stroke-width="4"
   />
 
-
   <!-- VEHICLE -->
 
   <g class="vehicle">
-
 
     <!-- SHADOW -->
 
@@ -74,106 +71,84 @@
       cy="230"
       rx="210"
       ry="18"
-      fill="#000"
+      fill="#000000"
       opacity="0.35"
     />
-
 
     <!-- MAIN BODY -->
 
     <path
       d="
-      M40 185
-      L55 105
-
-      Q60 75 95 70
-
-      L300 65
-
-      Q330 65 350 90
-
-      L400 145
-
-      Q425 150 435 175
-
-      L440 205
-
-      L30 205
-
-      Z
+        M40 185
+        L55 105
+        Q60 75 95 70
+        L300 65
+        Q330 65 350 90
+        L400 145
+        Q425 150 435 175
+        L440 205
+        L30 205
+        Z
       "
       fill="#1f2328"
       stroke="#8b949e"
       stroke-width="4"
     />
 
-
     <!-- ROOF -->
 
     <path
       d="
-      M75 105
-      L90 78
-      L290 73
-
-      Q320 75 340 100
-
-      L365 125
-
-      L70 125
-
-      Z
+        M75 105
+        L90 78
+        L290 73
+        Q320 75 340 100
+        L365 125
+        L70 125
+        Z
       "
       fill="#161b22"
     />
-
 
     <!-- REAR WINDOW -->
 
     <path
       d="
-      M95 85
-      L165 82
-      L165 120
-      L82 120
-      Z
+        M95 85
+        L165 82
+        L165 120
+        L82 120
+        Z
       "
       fill="#57606a"
     />
-
 
     <!-- MIDDLE WINDOW -->
 
     <path
       d="
-      M175 82
-      L250 80
-      L250 120
-      L175 120
-      Z
+        M175 82
+        L250 80
+        L250 120
+        L175 120
+        Z
       "
       fill="#57606a"
     />
-
 
     <!-- FRONT WINDOW -->
 
     <path
       d="
-      M260 80
-      L290 80
-
-      Q310 82 330 105
-
-      L345 120
-
-      L260 120
-
-      Z
+        M260 80
+        L290 80
+        Q310 82 330 105
+        L345 120
+        L260 120
+        Z
       "
       fill="#57606a"
     />
-
 
     <!-- WINDOW DIVIDERS -->
 
@@ -192,7 +167,6 @@
       height="48"
       fill="#1f2328"
     />
-
 
     <!-- DOOR LINES -->
 
@@ -214,7 +188,6 @@
       stroke-width="3"
     />
 
-
     <!-- DOOR HANDLES -->
 
     <rect
@@ -235,20 +208,18 @@
       fill="#8b949e"
     />
 
-
     <!-- BONNET -->
 
     <path
       d="
-      M345 130
-      L405 150
-      L420 175
-      L350 175
-      Z
+        M345 130
+        L405 150
+        L420 175
+        L350 175
+        Z
       "
       fill="#2d333b"
     />
-
 
     <!-- FRONT GRILLE -->
 
@@ -260,7 +231,6 @@
       rx="5"
       fill="#0d1117"
     />
-
 
     <!-- GRILLE DETAILS -->
 
@@ -291,7 +261,6 @@
       stroke-width="3"
     />
 
-
     <!-- HEADLIGHT -->
 
     <circle
@@ -309,7 +278,6 @@
       fill="#58a6ff"
     />
 
-
     <!-- FRONT BUMPER -->
 
     <rect
@@ -321,7 +289,6 @@
       fill="#57606a"
     />
 
-
     <!-- REAR BUMPER -->
 
     <rect
@@ -332,7 +299,6 @@
       rx="4"
       fill="#57606a"
     />
-
 
     <!-- REAR WHEEL -->
 
@@ -397,7 +363,6 @@
 
     </g>
 
-
     <!-- FRONT WHEEL -->
 
     <g class="wheel">
@@ -461,7 +426,6 @@
 
     </g>
 
-
     <!-- SIDE STEP -->
 
     <rect
@@ -472,7 +436,6 @@
       rx="4"
       fill="#57606a"
     />
-
 
   </g>
 
