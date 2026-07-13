@@ -121,3 +121,17 @@ const alvin = {
 />
 
 </div>
+
+---
+
+## 🚙 On the Road to Better Code
+
+<div align="center">
+
+<img
+  src="./assets/car-animation.svg"
+  width="100%"
+  alt="Animated Car"
+/>
+
+</div>
