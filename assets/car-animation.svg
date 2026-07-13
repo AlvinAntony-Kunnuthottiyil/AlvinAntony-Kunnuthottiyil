@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 280"
-     width="1200"
-     height="280">
-
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 280"
+  width="1200"
+  height="280"
+>
   <style>
     .vehicle {
-      animation: drive 8s linear infinite;
+      animation: drive 6s linear infinite;
     }
 
     .wheel {
@@ -19,12 +20,12 @@
     }
 
     @keyframes drive {
-      0% {
+      from {
         transform: translateX(0px);
       }
 
-      100% {
-        transform: translateX(1200px);
+      to {
+        transform: translateX(750px);
       }
     }
 
@@ -60,17 +61,17 @@
     stroke-width="4"
   />
 
-  <!-- VEHICLE -->
+  <!-- MOVING VEHICLE -->
 
   <g class="vehicle">
 
     <!-- SHADOW -->
 
     <ellipse
-      cx="245"
-      cy="230"
-      rx="210"
-      ry="18"
+      cx="235"
+      cy="235"
+      rx="205"
+      ry="15"
       fill="#000000"
       opacity="0.35"
     />
@@ -79,14 +80,14 @@
 
     <path
       d="
-        M40 185
-        L55 105
-        Q60 75 95 70
-        L300 65
-        Q330 65 350 90
+        M35 185
+        L50 110
+        Q55 75 95 70
+        L295 65
+        Q330 65 355 95
         L400 145
-        Q425 150 435 175
-        L440 205
+        Q425 150 440 175
+        L445 205
         L30 205
         Z
       "
@@ -99,9 +100,9 @@
 
     <path
       d="
-        M75 105
-        L90 78
-        L290 73
+        M75 110
+        L90 80
+        L290 75
         Q320 75 340 100
         L365 125
         L70 125
@@ -214,7 +215,7 @@
       d="
         M345 130
         L405 150
-        L420 175
+        L425 175
         L350 175
         Z
       "
